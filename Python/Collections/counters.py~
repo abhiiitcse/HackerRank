@@ -1,0 +1,4 @@
+from collections import Counter
+X = input()
+shoes_size = map(int,raw_input().strip().split())
+N = input()
