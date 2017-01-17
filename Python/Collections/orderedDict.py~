@@ -1,0 +1,12 @@
+from collections import OrderedDict
+n = input()
+odict = OrderedDict()
+for i in range(n):
+    inp = raw_input().strip().split()
+    key_val = ''
+    value_val = int(inp[-1])
+    for i in range(len(inp)-1):
+        key_val += inp[i]
+    odict[key_val] = value_val
+for k,v in odict.items():
+    print k,v

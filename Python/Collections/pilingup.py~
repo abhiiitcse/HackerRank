@@ -1,0 +1,6 @@
+from collections import deque
+dq = deque()
+n = input()
+for i in range(n):
+    val = map(int,raw_input().strip().split())
+    

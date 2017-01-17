@@ -1,0 +1,7 @@
+from collections import deque
+dq = deque()
+n = input()
+for i in range(n):
+    inp = raw_input().strip().split()
+    if inp[0] == 'append':
+        dq.append(int(inp[1]))
