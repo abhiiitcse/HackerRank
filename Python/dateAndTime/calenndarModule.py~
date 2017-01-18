@@ -1,0 +1,3 @@
+import calendar
+inp = map(int,raw_input().strip().split())
+val = calendar.weekdays(inp[0],inp[1],inp[2])
