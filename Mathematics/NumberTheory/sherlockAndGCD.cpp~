@@ -1,0 +1,33 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#define pb push_back
+#define FOR(i,a,b) for(int i=a;i<=b;i++)
+using namespace std;
+typedef vector<int> vi;
+int gcd(int a,int b){
+  int res;
+  int c,d;
+  if(a>b){
+    c = a;
+    d = b;
+  }
+  while(d!=0){
+    int temp = c%d;
+    c = d;
+    d = temp;
+  }
+  res = c;
+  return res;
+}
+
+int main(){
+  int t;
+  cin>>t;
+  while(t--){
+    int n;
+    bool found =false;
+    cin>>n;
+    vi v(n);
+    
+
