@@ -1,0 +1,24 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#define pb push_back
+using namespace std;
+typedef long int li;
+
+/**
+ * Check if solution exists for the given value of A and M
+ */
+bool checkForSolution(li A, li M){
+  
+}
+int main(){
+  int t;
+  cin>>t;
+  li A,M;
+  while(t--){
+    cin>>A>>M;
+    cout<<"A = "<<A<<" , M = "<<M<<endl;
+  }
+  cout<<"hello"<<endl;
+  return 0;
+}
