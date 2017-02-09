@@ -1,0 +1,5 @@
+import re
+val = raw_input().strip()
+output = re.split(",.",val)
+for i in range(len(output)):
+    print output[i]

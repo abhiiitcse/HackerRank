@@ -1,0 +1,4 @@
+import re
+n = input()
+for i in range(n):
+    print bool(re.search(r'^[+-]

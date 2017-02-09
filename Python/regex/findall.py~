@@ -1,0 +1,4 @@
+import re
+val = raw_input().strip()
+m = re.search(r'[^AEIOUaeiou]+[AEIOUaeiou]+[^AEIOUaeiou]',val)
+print m
