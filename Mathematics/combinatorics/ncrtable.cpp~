@@ -1,0 +1,14 @@
+#include <iostream>
+#include <vector>
+#define FOR(i,a,b) for(int i=a;i<=b;i++)
+using namespace std;
+typedef long long ll;
+const int max_index = 1000;
+int main(){
+  ll ncrtable[max_index][max_index];
+  FOR(i,0,max_index-1){
+    FOR(j,0,max_index-1){
+      ncrtable[i][j] = 0;
+    }
+  }
+  
