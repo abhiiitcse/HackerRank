@@ -1,0 +1,21 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#define FOR(i,a,b) for(int i=a;i<=b;i++)
+using namespace std;
+typedef long long ll;
+int main(){
+  int tt;
+  cin>>tt;
+  while(tt--){
+    int n;
+    int arr[2]={0,0};
+    cin>>n;
+    FOR(i,1,n){
+      ll val;
+      cin>>val;
+      if((val==1)||(val==2)){
+	arr[val-1]+=1;
+      }
+    }
+    

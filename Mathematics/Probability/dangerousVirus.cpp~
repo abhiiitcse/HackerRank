@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#define MOD 1000000007
+using namespace std;
+
+long int get_pow(int val,long int expterm){
+  long int result;
+  
+}
+
+
+int main(){
+  int a,b;
+  long int t;
+  cin>>a>>b>>t;
+  

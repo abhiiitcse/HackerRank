@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+#include <iomanip>
+using namespace std;
+typedef long long ll;
+int main(){
+  int tt;
+  cin>>tt;
+  while(tt--){
+    ll k,n;
+    cin>>k>>n;
+  }
+  return 0;
+}
+    
