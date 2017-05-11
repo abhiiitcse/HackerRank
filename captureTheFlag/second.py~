@@ -1,0 +1,5 @@
+import urllib, json
+url = "https://cdn.hackerrank.com/hackerrank/static/contests/capture-the-flag/secret/"
+response = urllib.urlopen(url)
+data = json.loads(response.read())
+print data

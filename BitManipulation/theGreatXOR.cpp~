@@ -1,0 +1,20 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main(){
+  int tt;
+  cin>>tt;
+  while(tt--){
+    long int val;
+    cin>>val;
+    long int count=0;
+    while(val){
+      if((val%2)==0){
+	count++;
+      }
+      val >>= 2;
+    }
+    cout<<count<<endl;
+  }
+  return 0;
+}

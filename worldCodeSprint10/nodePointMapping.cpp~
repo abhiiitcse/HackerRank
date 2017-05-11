@@ -1,0 +1,7 @@
+#include <iostream>
+#include <vector>
+#include <algorihtm>
+using namespace std;
+typedef pair<int,int> pii;
+int main(){
+  
