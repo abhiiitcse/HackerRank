@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#define FOR(i,a,b) for(int i=a;i<b;i++)
+#define MAX_N 300001
+using namespace std;
+typedef long long ll;
+ll arr_pow[11][MAX_N];
+
+void fill_pow(ll b, ll m){
+}
+
+int main(){
+  return 0;
+}
