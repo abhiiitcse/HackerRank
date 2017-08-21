@@ -1,0 +1,1723 @@
+15:16:01 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:16:04 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:16:15 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:18:06 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:18:33 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:19:09 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:19:33 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:19:42 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:21:21 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:22:08 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:273:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:23:50 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:268:17: error: cannot convert ‘sellday’ to ‘sellday*’ in initialization
+   sellday *sd = s;
+                 ^
+../src/sellStatistics.cpp:273:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+15:24:10 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:273:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:25:57 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:274:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:26:05 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:34:48 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:268:9: warning: unused variable ‘st’ [-Wunused-variable]
+  states st;
+         ^
+../src/sellStatistics.cpp:280:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:34:55 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:39:23 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:270:9: warning: unused variable ‘st’ [-Wunused-variable]
+  states st;
+         ^
+../src/sellStatistics.cpp:283:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:39:39 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:270:9: warning: unused variable ‘st’ [-Wunused-variable]
+  states st;
+         ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:39:42 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:39:47 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:40:07 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:52:54 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:53:23 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:268:17: error: no matching function for call to ‘std::vector<sellday*>::push_back(sellday&)’
+   sellDate.pb(sd);
+                 ^
+../src/sellStatistics.cpp:268:17: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday*; _Alloc = std::allocator<sellday*>; std::vector<_Tp, _Alloc>::value_type = sellday*]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday’ to ‘sellday* const&’
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+15:53:28 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:53:31 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:53:45 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:53:47 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:54:21 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:54:24 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:56:51 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:270:21: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  cout<<sellDate[100]->sold_product[0]->totalSell<<endl;
+                     ^
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+15:56:58 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:272:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+15:57:04 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+15:58:25 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp:13:24: error: expected identifier before numeric constant
+ #define MAX_PRODUCT_ID 11
+                        ^
+../src/sellStatistics.cpp:64:31: note: in expansion of macro ‘MAX_PRODUCT_ID’
+  vector<products>sold_product(MAX_PRODUCT_ID);
+                               ^
+../src/sellStatistics.cpp:13:24: error: expected ‘,’ or ‘...’ before numeric constant
+ #define MAX_PRODUCT_ID 11
+                        ^
+../src/sellStatistics.cpp:64:31: note: in expansion of macro ‘MAX_PRODUCT_ID’
+  vector<products>sold_product(MAX_PRODUCT_ID);
+                               ^
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:123:43: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+  sellDate[dayNum]->sold_product[product_id]->totalSell++;
+                                           ^
+../src/sellStatistics.cpp:124:43: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+  sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+                                           ^
+../src/sellStatistics.cpp:126:44: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:127:44: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:129:45: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                             ^
+../src/sellStatistics.cpp:130:45: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                             ^
+../src/sellStatistics.cpp:134:45: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                             ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:148:51: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                   ^
+../src/sellStatistics.cpp:151:52: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:153:53: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                     ^
+../src/sellStatistics.cpp:156:52: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:158:53: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                     ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:263:36: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+  cout<<sellDate[100].sold_product[0]->totalSell<<endl;
+                                    ^
+../src/sellStatistics.cpp:265:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+15:58:35 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:123:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:124:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:126:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:127:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:129:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:130:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:134:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:148:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:151:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:153:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:156:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:158:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:263:37: error: base operand of ‘->’ has non-pointer type ‘products’
+  cout<<sellDate[100].sold_product[0]->totalSell<<endl;
+                                     ^
+../src/sellStatistics.cpp:265:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+15:58:48 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:123:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:124:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:126:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:127:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:129:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:130:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:134:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:148:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:151:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:153:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:156:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:158:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:263:37: error: base operand of ‘->’ has non-pointer type ‘products’
+  cout<<sellDate[100].sold_product[0]->totalSell<<endl;
+                                     ^
+../src/sellStatistics.cpp:265:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+15:59:46 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:123:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:124:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:126:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:127:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:129:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:130:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:134:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:148:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:151:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:153:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:156:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:158:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:01:49 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:111:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:112:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:114:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:115:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:117:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:118:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:122:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:136:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:139:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:141:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:144:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:146:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:261:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:03:13 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:104:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:105:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:107:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:108:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:110:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:111:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:115:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:129:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:257:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:04:46 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:105:44: error: base operand of ‘->’ has non-pointer type ‘products’
+  sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+                                            ^
+../src/sellStatistics.cpp:107:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:108:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:110:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:111:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:115:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:129:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:04:56 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:107:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:108:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:110:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:111:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:115:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:129:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:05:07 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:108:45: error: base operand of ‘->’ has non-pointer type ‘products’
+   sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+                                             ^
+../src/sellStatistics.cpp:110:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:111:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:115:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:129:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:05:19 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:110:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:111:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp:115:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:129:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:05:43 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:115:46: error: base operand of ‘->’ has non-pointer type ‘products’
+    sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+                                              ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:129:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:05:52 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:129:52: error: base operand of ‘->’ has non-pointer type ‘products’
+  ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+                                                    ^
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:06:27 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:132:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:134:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:06:45 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:132:70: error: base operand of ‘->’ has non-pointer type ‘states’
+   ret_result = sellDate[dayname]->sold_product[p_id].sell_state[s_id]->totalSell;
+                                                                      ^
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:06:53 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:137:53: error: base operand of ‘->’ has non-pointer type ‘products’
+   ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+                                                     ^
+../src/sellStatistics.cpp:139:54: error: base operand of ‘->’ has non-pointer type ‘products’
+    ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+                                                      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:07:15 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:07:19 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:07:28 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:07:30 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:07:37 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:08:05 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:258:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:08:08 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:08:50 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:261:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:08:52 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:10:06 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:10:14 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:10:46 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:11:01 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:262:22: error: ‘pd’ was not declared in this scope
+   sd.sold_product.pb(pd);
+                      ^
+../src/sellStatistics.cpp:267:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:11:07 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:11:09 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:12:02 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:271:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:12:04 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:12:38 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:271:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:13:00 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:271:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:13:03 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:13:47 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:275:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:13:49 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:15:12 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:283:6: warning: unused variable ‘tt’ [-Wunused-variable]
+  int tt;
+      ^
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:15:56 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void processInformation(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:257:34: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   process_sell_info(sellDate, inp);
+                                  ^
+../src/sellStatistics.cpp:73:6: error: in passing argument 1 of ‘void process_sell_info(std::vector<sellday*>&, std::string)’
+ void process_sell_info(vector<sellday*> &sellDate, string inp){
+      ^
+../src/sellStatistics.cpp:259:35: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   process_query_info(sellDate, inp);
+                                   ^
+../src/sellStatistics.cpp:171:6: error: in passing argument 1 of ‘void process_query_info(std::vector<sellday*>&, std::string)’
+ void process_query_info(vector<sellday*> &sellDate, string inp){
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:16:01 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_query_info(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:242:97: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+  cout<<get_query_answer(sellDate,d_start,product_id,product_category_id,state_id,state_region_id)<<endl;
+                                                                                                 ^
+../src/sellStatistics.cpp:152:5: error: in passing argument 1 of ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’
+ int get_query_answer(vector<sellday*> &sellDate, int dayname, int p_id, int pc_id, int s_id, int sr_id){
+     ^
+../src/sellStatistics.cpp: In function ‘void processInformation(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:257:34: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   process_sell_info(sellDate, inp);
+                                  ^
+../src/sellStatistics.cpp:73:6: error: in passing argument 1 of ‘void process_sell_info(std::vector<sellday*>&, std::string)’
+ void process_sell_info(vector<sellday*> &sellDate, string inp){
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:16:09 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:128:18: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  sellDate[dayNum]->totalSell++;
+                  ^
+../src/sellStatistics.cpp:129:18: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  sellDate[dayNum]->sold_product[product_id].totalSell++;
+                  ^
+../src/sellStatistics.cpp:130:18: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  sellDate[dayNum]->sold_product[product_id].sell_state[state_id].totalSell++;
+                  ^
+../src/sellStatistics.cpp:132:19: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   sellDate[dayNum]->sold_product[product_id].category_id[product_category_id].totalSell++;
+                   ^
+../src/sellStatistics.cpp:133:19: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   sellDate[dayNum]->sold_product[product_id].category_id[product_category_id].state_num[state_id].totalSell++;
+                   ^
+../src/sellStatistics.cpp:135:20: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    sellDate[dayNum]->sold_product[product_id].sell_state[state_id].region_id[state_region_id]++;
+                    ^
+../src/sellStatistics.cpp:136:20: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    sellDate[dayNum]->sold_product[product_id].category_id[product_category_id].state_num[state_id].region_id[state_region_id]++;
+                    ^
+../src/sellStatistics.cpp:140:20: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    sellDate[dayNum]->sold_product[product_id].sell_state[state_id].region_id[state_region_id]++;
+                    ^
+../src/sellStatistics.cpp: In function ‘void process_query_info(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:242:97: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+  cout<<get_query_answer(sellDate,d_start,product_id,product_category_id,state_id,state_region_id)<<endl;
+                                                                                                 ^
+../src/sellStatistics.cpp:152:5: error: in passing argument 1 of ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’
+ int get_query_answer(vector<sellday*> &sellDate, int dayname, int p_id, int pc_id, int s_id, int sr_id){
+     ^
+make: *** [src/sellStatistics.o] Error 1
+16:16:51 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:17:39 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:17:54 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:18:20 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:18:23 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:19:23 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_query_info(std::vector<sellday*>&, std::string)’:
+../src/sellStatistics.cpp:249:51: error: expected primary-expression before ‘/’ token
+  cout<<"state_region_id="<<state_region_id<<endl;*/
+                                                   ^
+../src/sellStatistics.cpp:250:1: error: expected primary-expression before ‘}’ token
+ }
+ ^
+../src/sellStatistics.cpp:250:1: error: expected ‘;’ before ‘}’ token
+make: *** [src/sellStatistics.o] Error 1
+16:19:35 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:19:38 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:20:06 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:21:03 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:21:45 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:22:18 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:23:00 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:23:02 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:23:50 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:23:54 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:24:22 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:18: error: no matching function for call to ‘std::vector<sellday>::push_back(sellday*)’
+   sellDate.pb(&sd);
+                  ^
+../src/sellStatistics.cpp:267:18: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday; _Alloc = std::allocator<sellday>; std::vector<_Tp, _Alloc>::value_type = sellday]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday*’ to ‘const value_type& {aka const sellday&}’
+../src/sellStatistics.cpp:278:35: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   processInformation(sellDate, inp);
+                                   ^
+../src/sellStatistics.cpp:252:6: error: in passing argument 1 of ‘void processInformation(std::vector<sellday*>&, std::string)’
+ void processInformation(vector<sellday*> &sellDate, string inp){
+      ^
+make: *** [src/sellStatistics.o] Error 1
+16:24:28 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void processInformation(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:257:34: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   process_sell_info(sellDate, inp);
+                                  ^
+../src/sellStatistics.cpp:73:6: error: in passing argument 1 of ‘void process_sell_info(std::vector<sellday*>&, std::string)’
+ void process_sell_info(vector<sellday*> &sellDate, string inp){
+      ^
+../src/sellStatistics.cpp:259:35: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   process_query_info(sellDate, inp);
+                                   ^
+../src/sellStatistics.cpp:171:6: error: in passing argument 1 of ‘void process_query_info(std::vector<sellday*>&, std::string)’
+ void process_query_info(vector<sellday*> &sellDate, string inp){
+      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:18: error: no matching function for call to ‘std::vector<sellday>::push_back(sellday*)’
+   sellDate.pb(&sd);
+                  ^
+../src/sellStatistics.cpp:267:18: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday; _Alloc = std::allocator<sellday>; std::vector<_Tp, _Alloc>::value_type = sellday]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday*’ to ‘const value_type& {aka const sellday&}’
+make: *** [src/sellStatistics.o] Error 1
+16:24:34 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_query_info(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:242:97: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+  cout<<get_query_answer(sellDate,d_start,product_id,product_category_id,state_id,state_region_id)<<endl;
+                                                                                                 ^
+../src/sellStatistics.cpp:154:5: error: in passing argument 1 of ‘int get_query_answer(std::vector<sellday*>&, int, int, int, int, int)’
+ int get_query_answer(vector<sellday*> &sellDate, int dayname, int p_id, int pc_id, int s_id, int sr_id){
+     ^
+../src/sellStatistics.cpp: In function ‘void processInformation(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:257:34: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   process_sell_info(sellDate, inp);
+                                  ^
+../src/sellStatistics.cpp:73:6: error: in passing argument 1 of ‘void process_sell_info(std::vector<sellday*>&, std::string)’
+ void process_sell_info(vector<sellday*> &sellDate, string inp){
+      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:18: error: no matching function for call to ‘std::vector<sellday>::push_back(sellday*)’
+   sellDate.pb(&sd);
+                  ^
+../src/sellStatistics.cpp:267:18: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday; _Alloc = std::allocator<sellday>; std::vector<_Tp, _Alloc>::value_type = sellday]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday*’ to ‘const value_type& {aka const sellday&}’
+make: *** [src/sellStatistics.o] Error 1
+16:24:38 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:156:32: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  ret_result = sellDate[dayname]->sold_product[p_id].totalSell;
+                                ^
+../src/sellStatistics.cpp:158:33: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   ret_result = sellDate[dayname]->sold_product[p_id].sell_state[s_id].totalSell;
+                                 ^
+../src/sellStatistics.cpp:160:34: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    ret_result = sellDate[dayname]->sold_product[p_id].sell_state[s_id].region_id[sr_id];
+                                  ^
+../src/sellStatistics.cpp:163:33: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   ret_result = sellDate[dayname]->sold_product[p_id].category_id[pc_id].state_num[s_id].totalSell;
+                                 ^
+../src/sellStatistics.cpp:165:34: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    ret_result = sellDate[dayname]->sold_product[p_id].category_id[pc_id].state_num[s_id].region_id[sr_id];
+                                  ^
+../src/sellStatistics.cpp: In function ‘void processInformation(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:257:34: error: invalid initialization of reference of type ‘std::vector<sellday*>&’ from expression of type ‘std::vector<sellday>’
+   process_sell_info(sellDate, inp);
+                                  ^
+../src/sellStatistics.cpp:73:6: error: in passing argument 1 of ‘void process_sell_info(std::vector<sellday*>&, std::string)’
+ void process_sell_info(vector<sellday*> &sellDate, string inp){
+      ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:18: error: no matching function for call to ‘std::vector<sellday>::push_back(sellday*)’
+   sellDate.pb(&sd);
+                  ^
+../src/sellStatistics.cpp:267:18: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday; _Alloc = std::allocator<sellday>; std::vector<_Tp, _Alloc>::value_type = sellday]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday*’ to ‘const value_type& {aka const sellday&}’
+make: *** [src/sellStatistics.o] Error 1
+16:24:43 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘void process_sell_info(std::vector<sellday>&, std::string)’:
+../src/sellStatistics.cpp:128:19: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  cout<<sellDate[1]->totalSell <<endl;
+                   ^
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:156:32: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  ret_result = sellDate[dayname]->sold_product[p_id].totalSell;
+                                ^
+../src/sellStatistics.cpp:158:33: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   ret_result = sellDate[dayname]->sold_product[p_id].sell_state[s_id].totalSell;
+                                 ^
+../src/sellStatistics.cpp:160:34: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    ret_result = sellDate[dayname]->sold_product[p_id].sell_state[s_id].region_id[sr_id];
+                                  ^
+../src/sellStatistics.cpp:163:33: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   ret_result = sellDate[dayname]->sold_product[p_id].category_id[pc_id].state_num[s_id].totalSell;
+                                 ^
+../src/sellStatistics.cpp:165:34: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    ret_result = sellDate[dayname]->sold_product[p_id].category_id[pc_id].state_num[s_id].region_id[sr_id];
+                                  ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:18: error: no matching function for call to ‘std::vector<sellday>::push_back(sellday*)’
+   sellDate.pb(&sd);
+                  ^
+../src/sellStatistics.cpp:267:18: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday; _Alloc = std::allocator<sellday>; std::vector<_Tp, _Alloc>::value_type = sellday]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday*’ to ‘const value_type& {aka const sellday&}’
+make: *** [src/sellStatistics.o] Error 1
+16:24:51 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int get_query_answer(std::vector<sellday>&, int, int, int, int, int)’:
+../src/sellStatistics.cpp:156:32: error: base operand of ‘->’ has non-pointer type ‘sellday’
+  ret_result = sellDate[dayname]->sold_product[p_id].totalSell;
+                                ^
+../src/sellStatistics.cpp:158:33: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   ret_result = sellDate[dayname]->sold_product[p_id].sell_state[s_id].totalSell;
+                                 ^
+../src/sellStatistics.cpp:160:34: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    ret_result = sellDate[dayname]->sold_product[p_id].sell_state[s_id].region_id[sr_id];
+                                  ^
+../src/sellStatistics.cpp:163:33: error: base operand of ‘->’ has non-pointer type ‘sellday’
+   ret_result = sellDate[dayname]->sold_product[p_id].category_id[pc_id].state_num[s_id].totalSell;
+                                 ^
+../src/sellStatistics.cpp:165:34: error: base operand of ‘->’ has non-pointer type ‘sellday’
+    ret_result = sellDate[dayname]->sold_product[p_id].category_id[pc_id].state_num[s_id].region_id[sr_id];
+                                  ^
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:18: error: no matching function for call to ‘std::vector<sellday>::push_back(sellday*)’
+   sellDate.pb(&sd);
+                  ^
+../src/sellStatistics.cpp:267:18: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday; _Alloc = std::allocator<sellday>; std::vector<_Tp, _Alloc>::value_type = sellday]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday*’ to ‘const value_type& {aka const sellday&}’
+make: *** [src/sellStatistics.o] Error 1
+16:25:20 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+../src/sellStatistics.cpp: In function ‘int main()’:
+../src/sellStatistics.cpp:267:18: error: no matching function for call to ‘std::vector<sellday>::push_back(sellday*)’
+   sellDate.pb(&sd);
+                  ^
+../src/sellStatistics.cpp:267:18: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from /usr/include/c++/4.8/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/4.8/bits/stdc++.h:85,
+                 from ../src/sellStatistics.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = sellday; _Alloc = std::allocator<sellday>; std::vector<_Tp, _Alloc>::value_type = sellday]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘sellday*’ to ‘const value_type& {aka const sellday&}’
+make: *** [src/sellStatistics.o] Error 1
+16:25:28 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:25:34 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:26:08 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:27:10 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:27:15 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:27:51 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:28:53 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:29:40 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:29:53 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+make: Nothing to be done for `all'.
+16:34:43 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+16:56:45 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 

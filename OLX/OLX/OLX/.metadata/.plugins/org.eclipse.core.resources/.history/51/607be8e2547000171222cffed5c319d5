@@ -1,0 +1,281 @@
+/*
+ * shellStatistics.cpp
+ *
+ *  Created on: 24-Jul-2017
+ *      Author: abhimanyu
+ */
+
+#include <bits/stdc++.h>
+
+#define MAX_REGION_ID 26
+#define MAX_STATE_ID 8
+#define MAX_CATEGORY_ID 5
+#define MAX_PRODUCT_ID 11
+#define MAX_DAY_RANGE 101
+
+#define FOR(i,a,b) for(int i=a;i<b;i++)
+#define pb push_back
+
+using namespace std;
+
+struct states{
+	int totalSell;
+	int region_id[MAX_REGION_ID];
+	states(){
+		totalSell = 0;
+		FOR(i,0,MAX_REGION_ID){
+			region_id[i] = 0;
+		}
+	}
+};
+
+struct product_category{
+	int totalSell;
+	vector<states*> state_num;
+	product_category(){
+		totalSell = 0;
+		FOR(i,0,MAX_STATE_ID){
+			states *st = (states*)malloc(sizeof(states));
+			state_num.pb(st);
+		}
+	}
+};
+
+struct products{
+	int totalSell;
+	vector<product_category*> category_id;
+	vector<states*> sell_state;
+
+	products(){
+		totalSell = 0;
+		FOR(i,0,MAX_CATEGORY_ID){
+			product_category *pc = (product_category *)malloc(sizeof(product_category));
+			category_id.pb(pc);
+		}
+		FOR(i,0,MAX_STATE_ID){
+			states *st = (states*)malloc(sizeof(states));
+			sell_state.pb(st);
+		}
+	}
+};
+
+struct sellday{
+	int totalSell;
+	vector<products*>sold_product;
+	sellday(){
+		totalSell = 0;
+		FOR(i,0,MAX_PRODUCT_ID){
+			products *pd = (products*)malloc(sizeof(products));
+			sold_product.pb(pd);
+		}
+	}
+};
+
+void process_sell_info(vector<sellday*> &sellDate, string inp){
+	istringstream iss(inp);
+	char s_or_q;
+	int dayNum;
+	string product_details, region_details;
+
+	iss>>s_or_q;
+	iss>>dayNum;
+	iss>>product_details;
+	iss>>region_details;
+
+	int product_id = 0;
+	int product_category_id = 0;
+
+	int state_id = 0;
+	int state_region_id = 0;
+
+	unsigned int len = 0;
+	while(len<product_details.size()){
+		if(product_details[len]=='.'){
+			break;
+		}else{
+			product_id = ((10*product_id)+(product_details[len]-'0'));
+		}
+		len++;
+	}
+	len++;
+	while(len<product_details.size()){
+		if(product_details[len]==' '){
+			break;
+		}else{
+			product_category_id = ((10*product_category_id) + (product_details[len]-'0'));
+		}
+		len++;
+	}
+
+	len = 0;
+	while(len<region_details.size()){
+		if(region_details[len]=='.'){
+			break;
+		}else{
+			state_id = ((10*state_id)+(region_details[len]-'0'));
+		}
+		len++;
+	}
+	len++;
+	while(len<region_details.size()){
+		if(region_details[len]==' '){
+			break;
+		}else{
+			state_region_id = ((10*state_region_id) + (region_details[len]-'0'));
+		}
+		len++;
+	}
+
+	sellDate[dayNum]->totalSell++;
+	sellDate[dayNum]->sold_product[product_id]->totalSell++;
+	sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->totalSell++;
+	if(product_category_id!=0){
+		sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->totalSell++;
+		sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->totalSell++;
+		if(state_region_id!=0){
+			sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+			sellDate[dayNum]->sold_product[product_id]->category_id[product_category_id]->state_num[state_id]->region_id[state_region_id]++;
+		}
+	}else{
+		if(state_region_id!=0){
+			sellDate[dayNum]->sold_product[product_id]->sell_state[state_id]->region_id[state_region_id]++;
+		}
+	}
+
+	/*cout<<"query_type="<<s_or_q<<endl;
+	cout<<"dayNum="<<dayNum<<endl;
+	cout<<"product id="<<product_id<<endl;
+	cout<<"category id="<<product_category_id<<endl;
+	cout<<"state id="<<state_id<<endl;
+	cout<<"state_region_id="<<state_region_id<<endl;*/
+}
+
+int get_query_answer(vector<sellday*> &sellDate, int dayname, int p_id, int pc_id, int s_id, int sr_id){
+	int ret_result = 0;
+	ret_result = sellDate[dayname]->sold_product[p_id]->totalSell;
+	cout<<"here ..."<<sellDate.size()<<endl;
+	if(pc_id==0){
+		ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->totalSell;
+		if(sr_id!=0){
+			ret_result = sellDate[dayname]->sold_product[p_id]->sell_state[s_id]->region_id[sr_id];
+		}
+	}else{
+		ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->totalSell;
+		if(sr_id!=0){
+			ret_result = sellDate[dayname]->sold_product[p_id]->category_id[pc_id]->state_num[s_id]->region_id[sr_id];
+		}
+	}
+	cout<<ret_result<<endl;
+	return ret_result;
+}
+
+void process_query_info(vector<sellday*> &sellDate, string inp){
+	istringstream iss(inp);
+	char s_or_q;
+	string dayRange,product_details, region_details;
+
+	iss>>s_or_q;
+	iss>>dayRange;
+	iss>>product_details;
+	iss>>region_details;
+
+	int d_start = 0, d_end = 0;
+	int product_id = 0, product_category_id = 0;
+	int state_id = 0, state_region_id = 0;
+
+	unsigned int len = 0;
+	while(len<dayRange.size()){
+		if(dayRange[len]=='.'){
+			break;
+		}else{
+			d_start = ((10*d_start)+(dayRange[len]-'0'));
+		}
+		len++;
+	}
+	len++;
+	while(len<dayRange.size()){
+		if(dayRange[len]==' '){
+			break;
+		}else{
+			d_end = ((10*d_end) + (dayRange[len]-'0'));
+		}
+		len++;
+	}
+	len = 0;
+	while(len<product_details.size()){
+		if(product_details[len]=='.'){
+			break;
+		}else{
+			product_id = ((10*product_id)+(product_details[len]-'0'));
+		}
+		len++;
+	}
+	len++;
+	while(len<product_details.size()){
+		if(product_details[len]==' '){
+			break;
+		}else{
+			product_category_id = ((10*product_category_id) + (product_details[len]-'0'));
+		}
+		len++;
+	}
+
+	len = 0;
+	while(len<region_details.size()){
+		if(region_details[len]=='.'){
+			break;
+		}else{
+			state_id = ((10*state_id)+(region_details[len]-'0'));
+		}
+		len++;
+	}
+	len++;
+	while(len<region_details.size()){
+		if(region_details[len]==' '){
+			break;
+		}else{
+			state_region_id = ((10*state_region_id) + (region_details[len]-'0'));
+		}
+		len++;
+	}
+
+
+	cout<<get_query_answer(sellDate,d_start,product_id,product_category_id,state_id,state_region_id)<<endl;
+	cout<<"query_type="<<s_or_q<<endl;
+	cout<<"d_start = "<<d_start<<endl;
+	cout<<"d_end = "<<d_end<<endl;
+	cout<<"product id="<<product_id<<endl;
+	cout<<"category id="<<product_category_id<<endl;
+	cout<<"state id="<<state_id<<endl;
+	cout<<"state_region_id="<<state_region_id<<endl;
+}
+
+void processInformation(vector<sellday*> &sellDate, string inp){
+	istringstream iss(inp);
+	char s_or_q;
+	iss>>s_or_q;
+	if(s_or_q == 'S'){
+		process_sell_info(sellDate, inp);
+	}else{
+		process_query_info(sellDate, inp);
+	}
+}
+
+int main(){
+	vector<sellday*> sellDate;
+	FOR(i,0,MAX_DAY_RANGE){
+		sellday *sd;
+		sellDate.pb(sd);
+	}
+	int tt;
+	cin>>tt;
+
+	string tmp;
+	getline(cin,tmp);
+	while(tt--){
+		string inp;
+		getline(cin,inp);
+		processInformation(sellDate, inp);
+	}
+	return 0;
+}

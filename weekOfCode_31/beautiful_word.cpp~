@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+bool isInVowel(char ch){
+  char vowelSet = ['a','e','i','o','u','y'];
+  for(int i=0;i<6;i++){
+    if(ch==vowelSet[i]){
+      return true;
+    }
+  }
+  return false;
+}
+
+bool isBeautiful(string str){
+  int len = str.length();

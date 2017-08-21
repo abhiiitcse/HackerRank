@@ -1,0 +1,15 @@
+16:56:45 **** Incremental Build of configuration Debug for project sellStatisticsQuery ****
+make all 
+Building file: ../src/sellStatistics.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sellStatistics.d" -MT"src/sellStatistics.d" -o "src/sellStatistics.o" "../src/sellStatistics.cpp"
+Finished building: ../src/sellStatistics.cpp
+ 
+Building target: sellStatisticsQuery
+Invoking: GCC C++ Linker
+g++  -o "sellStatisticsQuery"  ./src/sellStatistics.o   
+Finished building target: sellStatisticsQuery
+ 
+
+16:56:46 Build Finished (took 720ms)
+
