@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string solve(int n, int m, vector <int> d, vector <int> c) {
+    // Complete this function
+}
+
+int main() {
+    int n;
+    int m;
+    cin >> n >> m;
+    vector<int> d(n);
+    for(int d_i = 0; d_i < n; d_i++){
+       cin >> d[d_i];
+    }
+    vector<int> c(n);
+    for(int c_i = 0; c_i < n; c_i++){
+       cin >> c[c_i];
+    }
+    int result = solve(n, m, p, d);
+    cout << result << endl;
+    return 0;
+}
+

@@ -1,0 +1,10 @@
+#include <iosream>
+#include <string>
+#include <map>
+using namespace std;
+int main(){
+  int len;
+  string inp;
+  cin>>len;
+  cin>>inp;
+  
